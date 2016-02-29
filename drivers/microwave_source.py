@@ -10,10 +10,10 @@ def set_frequency(frequency):
 def get_all():
 	get_frequency()
 	get_power()
-	while True:
+	#while True:
 		#if get_status():
 		#	break
-		sleep(.5) #wait until the mw source is ready
+	#	sleep(.5) #wait until the mw source is ready
 		
 def get_status():
 	return False #*STB? does not work for this device, just a quick fix...
